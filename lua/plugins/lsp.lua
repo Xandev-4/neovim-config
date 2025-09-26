@@ -208,22 +208,17 @@ return {
 			marksman = {},
 			clangd = {},
 			tailwindcss = {},
+			cssls = {},
+			css_variables = {},
+			cssmodules_ls = {},
+			html = {},
+			hyprls = {},
+			jsonls = {},
+			ruff = {},
+			stylua = {},
 			pyright = {},
 			ts_ls = {},
-			lua_ls = {
-				-- cmd = { ... },
-				-- filetypes = { ... },
-				-- capabilities = {},
-				-- settings = {
-				--   Lua = {
-				--     completion = {
-				--       callSnippet = 'Replace',
-				--     },
-				--     -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-				--     -- diagnostics = { disable = { 'missing-fields' } },
-				--   },
-				-- },
-			},
+			lua_ls = {},
 		}
 
 		-- Ensure the servers and tools above are installed
