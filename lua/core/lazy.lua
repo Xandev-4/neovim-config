@@ -37,5 +37,6 @@ require("lazy").setup({
 
 -- sets colorscheme
 vim.cmd.colorscheme("melange")
+-- vim.cmd.colorscheme("catppuccin-mocha")
 
 vim.cmd("ShowkeysToggle")
