@@ -36,7 +36,10 @@ require("lazy").setup({
 })
 
 -- sets colorscheme
-vim.cmd.colorscheme("melange")
--- vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("vesper")
+-- vim.cmd.colorscheme("mellow")
+-- vim.cmd.colorscheme("melange")
 
 vim.cmd("ShowkeysToggle")
+vim.api.nvim_set_hl(0, "RenderMarkdownCode", { bg = "#1d2523" })
+vim.api.nvim_set_hl(0, "RenderMarkdownCodeInline", { bg = "#1d2523" })

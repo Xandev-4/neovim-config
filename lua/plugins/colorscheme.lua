@@ -20,4 +20,20 @@ return {
 		lazy = false,
 		priority = 1000,
 	},
+	{
+		"datsfilipe/vesper.nvim",
+		lazy = false,
+		priority = 1000,
+		name = "vesper",
+		config = function()
+			require("vesper").setup({
+				transparent = true,
+			})
+		end,
+	},
+	{
+		"mellow-theme/mellow.nvim",
+		lazy = false,
+		priority = 1000,
+	},
 }
