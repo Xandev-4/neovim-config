@@ -2,6 +2,7 @@ require("core.lazy")
 require("core.keymaps")
 require("core.options")
 require("fzf-lua").register_ui_select()
+require("core.templates")
 
 local transparent_groups = {
 	"Normal",
